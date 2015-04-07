@@ -7,12 +7,11 @@ body{
 h1{
   text-align: center;
   letter-spacing: 0.25em;
-  border-bottom: 5px black;
 }
 .subtitle{
   text-align: center;
   font-style: italic;
-  letter-spacing: 0.25em;
+  letter-spacing: 0.15em;
 }
 blockquote{
   font-style: italic;
@@ -22,6 +21,9 @@ blockquote footer{
   text-align: right;
   text-transform: uppercase;
   font-style: normal;
+}
+blockquote footer a{
+  text-decoration: none;
 }
 dt{
   float: left;
@@ -61,4 +63,33 @@ h2 small{
 .small{
   font-size: 14;
   font-style: italic;
+}
+td {
+  border: 1px lightgray solid;
+}
+
+th {
+  border: 2px lightgray solid;
+  background-color: black;
+  color: white;
+  font-weight: 200;
+}
+.table {
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+  border-collapse: collapse;
+  margin: auto;
+  width: 800px
+}
+.week {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate (-90deg);
+  text-align: center;
+  text-transform: uppercase;
+}
+.oddweek {
+  background-color: beige;
 }
